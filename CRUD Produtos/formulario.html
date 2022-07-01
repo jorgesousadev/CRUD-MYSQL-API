@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/formulario.css">
+</head>
+
+<body>
+
+<div class="card" >
+  <div class="card-body">
+  <form action="http://localhost:3000/produtos/" method="POST" enctype="multipart/form-data" onsubmit="window.open('./index.html')">
+
+ <div class="form-group">
+  <label>Produto:</label>
+  <input type="text" name="produto" class="form-control"  placeholder="Nome do produto">
+ </div>
+
+ <div class="form-group">
+  <label>Preço:</label>
+  <input type="text" class="form-control" name="preco" placeholder="Preço">
+ </div>
+
+ <div class="form-group">
+  <label>Foto:</label>
+  <input type="file"  name="imagem" placeholder="Foto do produto">
+ </div>
+               
+ <button type="submit" value="submit" class="btn btn-outline-secondary">Cadastrar</button>
+  
+ </form>
+  </div>
+</div>
+
+</body>
+</html>

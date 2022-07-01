@@ -1,0 +1,12 @@
+.card{
+    width: 24rem;
+    margin: 0 auto;
+    margin-top: 10%;
+    background-color: 	#C0C0C0;
+}
+
+body{
+
+    background-image: url(../img/body.jpg);
+}
+
